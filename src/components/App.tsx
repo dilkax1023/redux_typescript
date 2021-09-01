@@ -1,3 +1,10 @@
+import { PackageList } from './PackageList';
+
 export default function App() {
-	return <div>hello</div>;
+	return (
+		<>
+			<h1>Npm package Search App</h1>
+			<PackageList />
+		</>
+	);
 }
